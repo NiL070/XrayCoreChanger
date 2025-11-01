@@ -1,11 +1,11 @@
 # Install Xray-core Changer
 
  ```html
-wget -q -O /usr/bin/xraychanger "https://raw.githubusercontent.com/NiL070/XrayCore-Custompath/main/xraychanger.sh" && chmod +x /usr/bin/xraychanger && xraychanger
+wget -q -O /usr/bin/xcorechanger "https://raw.githubusercontent.com/NiL070/XrayCore-Custompath/main/xcorechanger.sh" && chmod +x /usr/bin/xcorechanger && xcorechanger
   ```
 Then Just type command below
 
-`xraychanger` for menu
+`xcorechanger` for menu
 
 
 ## Description : For VPS only!!!
