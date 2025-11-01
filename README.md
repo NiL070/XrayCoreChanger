@@ -1,7 +1,7 @@
 # Install Xray-core Changer
 
  ```html
-wget -q -O /usr/bin/xcorechanger "https://raw.githubusercontent.com/NiL070/XrayCore-Custompath/main/xcorechanger.sh" && chmod +x /usr/bin/xcorechanger && xcorechanger
+wget -q -O /usr/bin/xcorechanger "https://raw.githubusercontent.com/NiL070/XrayCoreChanger/main/xcorechanger.sh" && chmod +x /usr/bin/xcorechanger && xcorechanger
   ```
 Then Just type command below
 
