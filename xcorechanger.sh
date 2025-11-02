@@ -61,50 +61,50 @@ case $xcore in
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-Core_v1.5.4/Xray-linux-64-v1.5.4" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 2)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-Core_v1.6.1/Xray-linux-64-v1.6.1" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 3)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-Core_v1.7.2/Xray-linux-64-v1.7.2" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 4)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-Core_v1.7.5/Xray-linux-64-v1.7.5" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 5)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-Core_v1.8.4/Xray-linux-64-v1.8.4" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 6)
 clear
 mv $xrays_path $xrays_path.bakk && curl -L https://github.com/XTLS/Xray-core/releases/download/v$latest_version/Xray-linux-64.zip > Xray-linux-64.zip && unzip *.zip && mv xray /usr/local/bin && chmod +x $xrays_path && rm *.zip *.dat LICENSE README.md && xray version
 #mv $xrays_path $xrays_path.bakk && curl -L https://github.com/XTLS/Xray-core/releases/download/v${latest_version}/xray-linux-64.zip > xray-linux-64.zip && unzip *.zip && mv xray /usr/local/bin && chmod +x $xrays_path && rm *.zip *.dat LICENSE README.md && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 77)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-CoreMod_v1.6.5.1/Xray-linux-64-v1.6.5.1" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 88)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-CoreMod_v1.7.2-1/Xray-linux-64-v1.7.2-1" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
-xraychanger
+xcorechanger
 ;;
 99)
 clear
@@ -112,7 +112,7 @@ xray version
 echo -e "[ ${green}INFO${NC} ] Back to menu in 5 sec . . . "
 ##echo -e "\033[0;32mBack to menu in 5 sec\033[0;32m"
 sleep 5
-xraychanger
+xcorechanger
 ;;
 0)
 clear
@@ -123,6 +123,6 @@ clear
 echo -e "[ ${red}INFO${NC} ] Please enter an correct number . . . "
 #echo -e "\e[1;31m Please enter an correct number\e[1;31m"
 sleep 3
-xraychanger
+xcorechanger
 ;;
 esac
