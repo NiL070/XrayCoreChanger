@@ -43,9 +43,10 @@ echo -e "
  
  [\033[1;36m•7\033[0m]  Xray-core MOD v1.6.5   
  [\033[1;36m•8\033[0m]  Xray-core MOD v1.7.2-1
- [\033[1;36m•9\033[0m]  Xray-core MOD v25.10.15
+ [\033[1;36m•9\033[0m]  Xray-core MOD v24.11.30
+ [\033[1;36m10\033[0m]  Xray-core MOD v25.10.15
 
- [\033[1;36m•10\033[0m]  Check Xray-core version
+ [\033[1;36m11\033[0m]  Check Xray-core version
  [\033[1;36m• 0\033[0m]  Back To Main Menu
 
  Notes: 
@@ -95,19 +96,31 @@ mv $xrays_path $xrays_path.bakk && curl -L https://github.com/XTLS/Xray-core/rel
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 xcorechanger
 ;;
-77)
+7)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-CoreMod_v1.6.5.1/Xray-linux-64-v1.6.5.1" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 xcorechanger
 ;;
-88)
+8)
 clear
 mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/Xray-CoreMod_v1.7.2-1/Xray-linux-64-v1.7.2-1" && chmod 755 $xrays_path && xray version
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 xcorechanger
 ;;
-99)
+9)
+clear
+mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/v24.11.30/xray-v24.11.30" && chmod 755 $xrays_path && xray version
+read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
+xcorechanger
+;;
+10)
+clear
+mv $xrays_path $xrays_path.bakk && wget -q -O $xrays_path "https://github.com/NiL070/XrayCoreChanger/releases/download/XrayCore_Mod/xray-linux-amd64" && chmod 755 $xrays_path && xray version
+read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
+xcorechanger
+;;
+11)
 clear
 xray version
 echo -e "[ ${green}INFO${NC} ] Back to menu in 5 sec . . . "
