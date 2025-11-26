@@ -41,12 +41,12 @@ echo -e "
  [\033[1;36m• 5\033[0m]  Xray-core v1.8.4
  [\033[1;36m• 6\033[0m]  Xray-core v${latest_version} ${green} << Latest ${NC}
  
- [\033[1;36m•7\033[0m]  Xray-core MOD v1.6.5   
- [\033[1;36m•8\033[0m]  Xray-core MOD v1.7.2-1
- [\033[1;36m•9\033[0m]  Xray-core MOD v24.11.30
- [\033[1;36m10\033[0m]  Xray-core MOD v25.10.15
+ [\033[1;36m• 7\033[0m]  Xray-core MOD v1.6.5   
+ [\033[1;36m• 8\033[0m]  Xray-core MOD v1.7.2-1
+ [\033[1;36m• 9\033[0m]  Xray-core MOD v24.11.30
+ [\033[1;36m 10\033[0m]  Xray-core MOD v25.10.15
 
- [\033[1;36m11\033[0m]  Check Xray-core version
+ [\033[1;36m 11\033[0m]  Check Xray-core version
  [\033[1;36m• 0\033[0m]  Back To Main Menu
 
  Notes: 
