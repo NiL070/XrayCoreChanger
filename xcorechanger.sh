@@ -47,6 +47,7 @@ echo -e "
  [\033[1;36m 10\033[0m]  Xray-core MOD v25.10.15
 
  [\033[1;36m 11\033[0m]  Check Xray-core version
+ [\033[1;36m 12\033[0m]  Restart Xray-core 
  [\033[1;36m• 0\033[0m]  Back To Main Menu
 
  Notes: 
@@ -127,6 +128,10 @@ echo -e "[ ${green}INFO${NC} ] Back to menu in 5 sec . . . "
 ##echo -e "\033[0;32mBack to menu in 5 sec\033[0;32m"
 sleep 5
 xcorechanger
+;;
+11)
+clear
+systemctl restart xray
 ;;
 0)
 clear
