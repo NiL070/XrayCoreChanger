@@ -129,9 +129,12 @@ echo -e "[ ${green}INFO${NC} ] Back to menu in 5 sec . . . "
 sleep 5
 xcorechanger
 ;;
-11)
+12)
 clear
 systemctl restart xray
+echo -e "[ ${green}INFO${NC} ] Back to menu in 3 sec . . . "
+sleep 3
+xcorechanger
 ;;
 0)
 clear
