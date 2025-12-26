@@ -21,3 +21,5 @@ Then Just type command below
 Xray MOD version
 - v1.6.5
 - v1.7.2-1
+- v24.11.30
+- v25.10.15
